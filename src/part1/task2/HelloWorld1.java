@@ -16,5 +16,5 @@ public class HelloWorld1 {
         week = (d - day) / 7;
         System.out.println(week + " недель " + day + " дней " + hour + " часов " + min + " минут " + sec + " секунд ");
     }
-}
 
+}

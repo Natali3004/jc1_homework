@@ -1,6 +1,6 @@
 package part3;
 
-public class task15 {
+public class Task15 {
     public static void main(String[] args) {
         long n = 7893823445L;
         int sum = 0;

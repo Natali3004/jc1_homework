@@ -1,6 +1,6 @@
 package part2;
 
-public class task6 {
+public class Task6 {
     public static void main(String[] args) {
         int s = 3555555;
         int sec;

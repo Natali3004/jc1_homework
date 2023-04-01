@@ -1,6 +1,6 @@
 package part3;
 
-public class task13 {
+public class Task13 {
     public static void main(String[] args) {
         int x = 1;
         int y = 10;

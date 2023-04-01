@@ -1,8 +1,8 @@
 package part3;
 
-public class task12 {
+public class Task12 {
     public static void main(String[] args) {
-        int daysWeek = 14;
+        int daysWeek = 1;
                 switch (daysWeek) {
             case 1:
                 System.out.println("Понедельник - пойти на курсы");

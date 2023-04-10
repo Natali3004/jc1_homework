@@ -1,4 +1,4 @@
-package Task25;
+package task25;
 
 public class TimeTestDrive {
     public static void main(String[] args) {

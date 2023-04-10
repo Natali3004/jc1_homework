@@ -1,4 +1,4 @@
-package Task25;
+package task25;
 
 public class Time {
     public int sec = 15;

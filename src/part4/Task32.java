@@ -5,7 +5,7 @@ public class Task32 {
         long startTime = System.currentTimeMillis();
         String str = "aaabbbccc";
         String str2 = "";
-        for (int i = 1; i < 100000; i++) {
+        for (int i = 1; i <= 1000_000; i++) {
             str2 += str;
         }
         long endTime = System.currentTimeMillis();
@@ -14,7 +14,7 @@ public class Task32 {
 
         long startTime2 = System.currentTimeMillis();
         StringBuilder str3 = new StringBuilder();
-        for (int i = 1; i < 100000; i++) {
+        for (int i = 1; i <= 1000_000; i++) {
             str3.append("aaabbbccc");
         }
         long endTime2 = System.currentTimeMillis();

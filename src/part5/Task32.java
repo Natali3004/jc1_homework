@@ -1,4 +1,4 @@
-package part4;
+package part5;
 
 public class Task32 {
     public static void main(String[] args) {

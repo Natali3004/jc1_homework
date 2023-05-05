@@ -1,6 +1,6 @@
-package part4;
+package part5;
 
-import static part4.Task30.searchNum;
+import static part5.Task30.searchNum;
 
 public class Task30Main {
     public static void main(String[] args) {

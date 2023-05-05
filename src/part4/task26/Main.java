@@ -1,4 +1,4 @@
-package part5.task26;
+package part4.task26;
 
 public class Main {
     public static void main(String[] args) {

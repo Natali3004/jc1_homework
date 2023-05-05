@@ -1,13 +1,13 @@
 package part7;
 
 import java.util.ArrayList;
-import java.util.Iterator;
+
 
 public class Task40 {
     public static void main(String[] args) {
-
+        int value = 20;
         ArrayList<Integer> list = new ArrayList<>();
-        for (int i = 0; i < 20; i++) {
+        for (int i = 0; i < value; i++) {
             int mark = 1 + (int) (Math.random() * 10);
             list.add(mark);
         }
@@ -15,7 +15,7 @@ public class Task40 {
 
         ArrayList<Integer> listMin = new ArrayList<>();
         int min = 3;
-        for (int i = 0; i < 20; i++) {
+        for (int i = 0; i < value; i++) {
             int num = list.get(i);
             if (num <= min) {
                 listMin.add(num);

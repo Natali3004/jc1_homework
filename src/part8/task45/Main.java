@@ -2,11 +2,11 @@ package part8.task45;
 
 
 public class Main {
-    public static void main(String[] args) throws ageException {
+    public static void main(String[] args) throws AgeException {
 
         try {
             Age.retirementAge(25);
-        } catch (ageException e) {
+        } catch (AgeException e) {
             System.out.println("NO pension for your age" );
             System.exit(1);
         } finally {

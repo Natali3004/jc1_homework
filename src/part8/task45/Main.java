@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) throws ageException {
 
         try {
-            int age = Age.retirementAge(25);
+            Age.retirementAge(25);
         } catch (ageException e) {
             System.out.println("NO pension for your age" );
             System.exit(1);

@@ -7,6 +7,7 @@ public class Main {
         try {
             Age.retirementAge(25);
         } catch (AgeException e) {
+            e.printStackTrace();
             System.out.println("NO pension for your age" );
             System.exit(1);
         } finally {

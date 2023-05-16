@@ -1,4 +1,4 @@
-package part8.task45;
+package part8.task46;
 class AgeException extends Exception {
 
     private int age;

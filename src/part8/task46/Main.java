@@ -1,11 +1,16 @@
-package part8.task45;
+package part8.task46;
 
+
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) throws AgeException {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter your age");
 
+        int x = scanner.nextInt();
         try {
-            Age.retirementAge(25);
+            Age.retirementAge(x);
         } catch (AgeException e) {
             e.printStackTrace();
             System.out.println("NO pension for your age" );

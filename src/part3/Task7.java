@@ -2,8 +2,14 @@ package part3;
 
 public class Task7 {
     public static void main(String[] args) {
-        int x = 127;
-        boolean exam = x % 10 == 7;
-        System.out.println(exam);
+        System.out.println(method(275));
+    }
+
+    public static boolean method(int i) {
+        if (i % 10 == 7)
+            return true;
+         else {
+            return false;
+        }
     }
 }

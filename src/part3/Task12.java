@@ -2,8 +2,12 @@ package part3;
 
 public class Task12 {
     public static void main(String[] args) {
-        int daysWeek = 1;
-                switch (daysWeek) {
+
+        daysWeek(7);
+    }
+static void daysWeek (int dayWeek) {
+
+                switch (dayWeek) {
             case 1:
                 System.out.println("Понедельник - пойти на курсы");
                 break;

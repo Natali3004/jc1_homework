@@ -2,7 +2,7 @@ package part3;
 
 public class Task22 {
     public static void main(String[] args) {
-        int[] myMasiv = {5, 0, 3, 6, 9, 7, 16, 15, 8, 1};
+        int[] myMasiv = {0, 5, 0, 3, 6, 9, 7, 16, 15, 8, 16};
         int max = myMasiv[0];
         int min = myMasiv[0];
         int test = 0;

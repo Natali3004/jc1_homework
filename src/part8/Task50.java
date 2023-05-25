@@ -6,6 +6,7 @@ import java.util.Random;
 
 public class Task50 {
     public static void main(String[] args) throws IOException {
+
         DataOutputStream myFail;
         try {
             myFail = new DataOutputStream(new BufferedOutputStream(new FileOutputStream("document.dat")));
@@ -16,10 +17,9 @@ public class Task50 {
             for (int i = 0; i < array.length; ++i) System.out.println(array[i]);
 
             for (int j : array) myFail.write(String.valueOf(j).getBytes());
+            myFail.close();
 
-            try (FileReader reader = new FileReader("document.dat")) {
-                reader.read();
-            }
+
             int average = 0;
             for (int i = 0; i < array.length; ++i) {
                 average += array[i];

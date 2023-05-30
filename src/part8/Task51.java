@@ -21,7 +21,7 @@ public class Task51 {
                 for (int j : array) os.write(String.valueOf(j).getBytes());
             }
 
-            try (FileOutputStream allFiles = new FileOutputStream("D:\\2\\2\\3\\allFiles.txt")) {
+            try (FileOutputStream allFiles = new FileOutputStream("D:\\2\\2\\3\\allFiles.txt", true)) {
                 try (FileInputStream reader = new FileInputStream(doc)) {
                     allFiles.write(reader.readAllBytes());
                 }
